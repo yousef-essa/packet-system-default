@@ -1,16 +1,19 @@
 {
   "name": "packet-system-default",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A basic wrapper of client & server for the packet-system",
   "type": "module",
-  "source": "src/index.ts",
+  "main": "./dist/bundle.cjs",
+  "typings": "./dist/index.d.ts",
+  "module": "./dist/bundle.module.js",
+  "unpkg": "./dist/bundle.umd.cjs",
+  "files": [
+    "dist"
+  ],
   "exports": {
     "require": "./dist/bundle.cjs",
     "default": "./dist/bundle.modern.js"
   },
-  "main": "./dist/bundle.cjs",
-  "module": "./dist/bundle.module.js",
-  "unpkg": "./dist/bundle.umd.cjs",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
