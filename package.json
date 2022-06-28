@@ -12,6 +12,7 @@
   "module": "./dist/bundle.module.js",
   "unpkg": "./dist/bundle.umd.cjs",
   "scripts": {
+    "install": "npm run build",
     "build": "microbundle",
     "dev": "microbundle watch"
   },
