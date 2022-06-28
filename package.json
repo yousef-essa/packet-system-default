@@ -1,6 +1,6 @@
 {
   "name": "packet-system-default",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A basic wrapper of client & server for the packet-system",
   "type": "module",
   "main": "./dist/bundle.cjs",
