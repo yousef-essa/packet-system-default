@@ -1,6 +1,6 @@
 {
   "name": "packet-system-default",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A basic wrapper of client & server for the packet-system",
   "type": "module",
   "source": "src/index.ts",
